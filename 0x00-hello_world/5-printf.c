@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - int void return value
+ * main - integer return value
  *
  * printf - it prints formmated way
  *
