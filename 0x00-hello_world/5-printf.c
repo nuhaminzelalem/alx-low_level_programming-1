@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main -print function with printf funtion
+ * main -print function with no return
  *
  * Return :no return function
  *
