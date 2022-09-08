@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 /**
- * main : entery point
+ * main : entery point with 0 return value
+ *
+ * c printf function to print the given
  *
  * Return : 0 return value
  *
