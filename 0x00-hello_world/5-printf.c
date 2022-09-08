@@ -1,11 +1,8 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main - int return value Entry point
- *
- * printf - it prints formmated way
- *
- * Return : Always 0 (Success)
+ * main -Entry point
+ * my hello, printf task
+ * Return: return 0 after program execution
  */
 int main(void)
 {
