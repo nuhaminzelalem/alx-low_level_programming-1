@@ -1,6 +1,6 @@
 #include <stdio.h>
-/**	  
-* main: void return at entry point
+/**	
+ * main: void return at entry point
 *
 *  Return: 0 after printing the  function
 *
