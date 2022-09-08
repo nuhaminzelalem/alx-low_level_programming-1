@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  *  main  -entery point
  *
  *  Return: 0 after printing the puts  function
