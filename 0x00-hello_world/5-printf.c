@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
- * main -entery point with 0 return value or void 
+ * main : main function with void return value
  *
- * c printf function to print 
+ *c printf function to print with proper grammae
  *
- * Return : 0 return value
+ *return : after executing the printf function it return 0
  *
  */
 	int main(void)
