@@ -2,9 +2,10 @@
 
 /**
  *
- * 
- *  main -entry points 
- *    Return: 0 after printing the puts  function
+ *  main  functions void return value
+ *
+ *  Return: 0 after printing the puts  function
+ *
  *
  */
 
