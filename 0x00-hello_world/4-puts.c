@@ -1,18 +1,14 @@
-#include<stdio.h>
-
-/*	 
- * 	c programming that
- *	
- * 	prints the prescriped sentenc
- *	  
- *	
- * 	main -entry point
- *
- * 	Return: 0 after printing the  function
- *
- */
+#include<stdio>
+/*	
+*	  
+*	
+*	main -entry point
+*	
+* 	Return: 0 after printing the  function
+*	
+*/	
 	int main(void)
-{
+{	
 	
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
