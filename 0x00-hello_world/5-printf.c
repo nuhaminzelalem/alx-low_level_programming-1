@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
- * main - 0
+ * main - Entry point
  *
  * printf - it prints formmated way
  *
- * Return :   0
+ * Return : Always 0 (Success)
  *
  */
 	int main(void)
