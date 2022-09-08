@@ -2,8 +2,8 @@
 
 /**
  *
- *  main -entry point
  * 
+ *  main -entry points 
  *    Return: 0 after printing the puts  function
  *
  */
