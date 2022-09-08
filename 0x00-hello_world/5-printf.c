@@ -1,12 +1,11 @@
 #include<stdio.h>
 
 /**
- * main : entery point with 0 return value
+ * main -entery point with 0 return value or void 
  *
- * c printf function to print the given
+ * c printf function to print 
  *
  * Return : 0 return value
- *
  *
  */
 	int main(void)
