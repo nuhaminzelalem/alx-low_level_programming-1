@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entery point with no retun
+ * main - 0 return value
  *
  * Return : 0 return value
  *
