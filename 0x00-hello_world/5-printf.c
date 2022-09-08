@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * main - int return value Entry point
  *
  * printf - it prints formmated way
  *
