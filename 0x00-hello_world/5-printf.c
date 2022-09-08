@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - after executed with 0 return value
+ * main : entery point
  *
  * Return : 0 return value
+ *
  *
  */
 	int main(void)
