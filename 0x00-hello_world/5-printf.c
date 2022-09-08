@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main -print function with no return
+ * main - Entery point with no retun
  *
- * Return :no return function
+ * Return : 0 return value
  *
  */
 	int main(void)
