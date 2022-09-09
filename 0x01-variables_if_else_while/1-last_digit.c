@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.h>                                               
+#include <time.h>                                                 
+#include <stdio.h>    
 /**
  * main - prints the last digit and decid it is greater 5 0r 6
  * Return : Return: Always 0 (Success)
@@ -19,5 +19,6 @@ int main(void)
 		printf("Lasst digit of %d is 0\n", n);
 	else 
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
+
 	return (0);
 }
