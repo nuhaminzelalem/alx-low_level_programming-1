@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char alph_low_upper[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char al[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 
 	while (i < 52)
 	{
-		putchar(alph_low_upper[i]);
+		putchar(al[i]);
 		i++;
 	}
 	putchar('\n');
