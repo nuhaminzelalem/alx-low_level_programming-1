@@ -4,7 +4,7 @@
 /**
  * main - decide either greater than 5, is less than 6, or is 0
  * printf - prints the last digit and decid it is greater 5 0r 6
- * Return : Return: Always 0 (Success)
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
