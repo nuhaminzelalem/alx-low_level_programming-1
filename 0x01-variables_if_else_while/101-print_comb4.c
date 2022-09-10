@@ -25,11 +25,11 @@ int main(void)
 				}
 				x++;
 				}
-				j++;
 				x = j + 1;
+				j++;
 				}
-		i++;
 		j = i + 1;
+		i++;
 	}
 	putchar('\n');
 	return (0);
