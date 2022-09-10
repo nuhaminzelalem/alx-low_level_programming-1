@@ -13,12 +13,12 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			j++;
 			if (i != 56 && j != 57)
 			{
 				putchar(44);
 				putchar(32);
 			}
+			j++;
 		}
 		i++;
 	}
