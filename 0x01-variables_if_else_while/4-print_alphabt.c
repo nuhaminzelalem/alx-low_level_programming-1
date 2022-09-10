@@ -10,9 +10,9 @@ int main(void)
 
 	while (i < 26)
 	{
-		if (alpha[i] != 'e' && alpha[i] != 'q')
+		if (alpha_low[i] != 'e' && alpha_low[i] != 'q')
 		{
-			putchar(alpha[i]);
+			putchar(alpha_low[i]);
 			i++;
 		}
 	}
