@@ -12,8 +12,8 @@ int main(void)
 		if (!(i > 58 && i < 96))
 		{
 			putchar(i);
-			i++;
 		}
+		i++;
 	}
 		putchar('\n');
 		return (0);
