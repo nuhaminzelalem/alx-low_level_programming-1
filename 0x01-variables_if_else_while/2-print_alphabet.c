@@ -10,7 +10,7 @@ int main(void)
 
 	while (i < 26)
 	{
-		putchar(lower_alpha[i];
+		putchar(lower_alpha[i]);
 	}
 	putchar("\n");
 }
