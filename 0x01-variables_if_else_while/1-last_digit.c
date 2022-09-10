@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print either greater than 5, is less than 6, or is 0
- * 
+ * main - entery point
  * Return : Always 0 (Success)
  */
 int main(void)
