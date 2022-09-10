@@ -6,10 +6,12 @@
 int main(void)
 {
 	int i = 48;
-	int j = 49;
+	
 
-	while (i < 58 && j < 58)
+	while (i < 58 )
 	{
+		int j = 49;
+
 		while (i < j && j < 58)
 		{
 			putchar(i);
