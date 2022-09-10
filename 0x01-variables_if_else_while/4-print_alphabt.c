@@ -13,8 +13,8 @@ int main(void)
 		if (alpha_low[i] != 'e' && alpha_low[i] != 'q')
 		{
 			putchar(alpha_low[i]);
-			i++;
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
