@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print digit is greater than 5, is less than 6, or is 0
+ * main - print digit is greater than 5, is 0 or less than 6 and not 0
  * Return : Always 0 (Success)
  */
 int main(void)
