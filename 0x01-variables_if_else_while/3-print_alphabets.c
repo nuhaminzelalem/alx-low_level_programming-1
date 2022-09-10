@@ -13,6 +13,6 @@ int main(void)
 		putchar(alph_low_upper[i]);
 		i++;
 	}
-	putchar('/n');
+	putchar('\n');
 	return (0);
 }
