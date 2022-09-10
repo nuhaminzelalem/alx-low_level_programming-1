@@ -6,10 +6,10 @@
 int main(void)
 {
 	int i = 48;
+	int j = 49;
 
 	while (i < 58)
 	{
-		int j = 49;
 
 		while (i < j && j < 58)
 		{
@@ -22,8 +22,8 @@ int main(void)
 			}
 			j++;
 		}
-		j = 49;
 		i++;
+		j = i + 1;
 	}
 	putchar('\n');
 	return (0);
