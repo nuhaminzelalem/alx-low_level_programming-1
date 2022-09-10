@@ -11,6 +11,7 @@ int main(void)
 	while (i < 26)
 	{
 		putchar(lower_alpha[i]);
+		i++;
 	}
 	putchar('\n');
 
