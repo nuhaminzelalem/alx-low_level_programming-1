@@ -9,7 +9,7 @@ int main(void)
 
 	while (i < 103)
 	{
-		if (!(i > 58 && i < 96))
+		if (!(i > 57 && i < 95))
 		{
 			putchar(i);
 		}
