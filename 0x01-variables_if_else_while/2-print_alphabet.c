@@ -12,5 +12,7 @@ int main(void)
 	{
 		putchar(lower_alpha[i]);
 	}
-	putchar("\n");
+	putchar('\n');
+
+	return (0);
 }
