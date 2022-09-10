@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char alpha_low[26]
+	char alpha_low[26];
 	int i = 0;
 
 	while (i < 26)
