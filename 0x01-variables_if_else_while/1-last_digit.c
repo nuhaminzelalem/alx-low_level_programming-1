@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entery point
+ * main - decide either greater than 5, is less than 6, or is 0
  * printf - prints the last digit and decid it is greater 5 0r 6
  * Return : Return: Always 0 (Success)
  */
@@ -18,19 +18,19 @@ int main(void)
 	{
 
 		printf("Last digit of %d is %d and is greater than 5\n", n, a);
-
+		
 	}
 	else if (a == 0)
 	{
-		
+			
 		printf("Last digit of %d is %d and is 0\n", n, a);
-	
+		
 	}
 	else
 	{
 		
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
-	
+		
 	}
-	return (0);
+		return (0);
 }
