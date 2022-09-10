@@ -1,6 +1,6 @@
-#include <stdlib.h>                                               
-#include <time.h>                                                 
-#include <stdio.h>    
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - prints the last digit and decid it is greater 5 0r 6
  * Return : Return: Always 0 (Success)
@@ -10,7 +10,7 @@ int main(void)
 	int n, a;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
 	if (a > 5)
