@@ -22,7 +22,6 @@ int main(void)
 				{
 				di1 = (i * 10) + j;
 				di2 = (x * 10) + y;
-
 				if (di1 < di2)
 				{
 					putchar(i);
