@@ -32,7 +32,7 @@ int main(void)
 				putchar(x);
 				putchar(y);
 					}
-				if (!(i == 57 && j == 56 && x =57 && y = 57))
+				if (!((i == 57 && j == 56) && (x =57 && y = 57)))
 				{
 					putchar(44);
 					putchar(32);
@@ -43,9 +43,8 @@ int main(void)
 			}
 			j++;
 		}
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
 }
-
