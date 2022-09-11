@@ -11,7 +11,7 @@ int main(void)
 	while (i < 58)
 	{
 		j = 48;
-		while (j < 57)
+		while (j < 58)
 		{
 			x = 48;
 			while (x < 58)
@@ -24,11 +24,11 @@ int main(void)
 
 					if (di1 < di2)
 					{
-				putchar(i);
-				putchar(j);
-				putchar(32);
-				putchar(x);
-				putchar(y);
+						putchar(i);
+						putchar(j);
+						putchar(32);
+						putchar(x);
+						putchar(y);
 						if (!(i == 57 && j == 56 && x == 57 && y == 57))
 						{
 							putchar(44);
