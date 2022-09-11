@@ -9,6 +9,7 @@ int main(void)
 	int j = 48;
 	int x = 48;
 	int y = 48;
+	int di1, di2;
 
 	while (i < 58)
 	{
@@ -24,7 +25,10 @@ int main(void)
 
 				while (y < 58)
 				{
-					if ((i+j) < (x+y))
+					di1 = (i * 10) + j;
+					di2 = (x * 10) + y;
+
+					if (di1 < di2)
 					{
 				putchar(i);
 				putchar(j);
