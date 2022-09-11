@@ -5,7 +5,8 @@
  */
 int main(void)
 {
-	int i, j, x, y = 48;
+	int i, j, x, y;
+	i = j = x = y = 48;
 	int di1, di2;
 
 	while (i < 58)
