@@ -5,7 +5,7 @@
  */
 void print_alphabet_x10(void)
 {
-	char alpha[]="abcdefghijklmnopqrstuvwxyz";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i, j;
 
 	for (i = 1; i < 11; i++)
