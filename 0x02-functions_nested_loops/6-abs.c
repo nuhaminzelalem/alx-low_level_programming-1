@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs -  function that computes the absolute value of an integer.
+ * @a: the input parameter
  * Return: Always 0 (Success)
  */
 int _abs(int a)
@@ -14,7 +15,7 @@ if (a >= 0)
 }
 else
 {
-	abso = -1*a;
+	abso = -1 * a;
 	return (abso);
 }
 }
