@@ -5,9 +5,8 @@
  */
 int _islower(int c)
 {
-char lette;
 
-if (lette > 'a' && lette < 'z')
+if (c > 'a' && c < 'z')
 {
 	return (1);
 }
