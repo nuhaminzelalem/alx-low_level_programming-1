@@ -22,7 +22,6 @@ void print_times_table(int n)
 				if (mul <= 9)
 				{
 					if (j == 0)
-					{
 						_putchar('0');
 					else
 					{
@@ -43,7 +42,6 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-			}
 			}
 			_putchar('\n');
 		}
