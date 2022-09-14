@@ -26,18 +26,28 @@ void print_times_table(int n)
 					else
 					{
 						_putchar(' ');
+						_putchar(' ');
 						_putchar(mul % 10 + '0');
 					}
 					if (j == n)
 						continue;
 					_putchar(',');
 					_putchar(' ');
-					_putchar(' ');
 				}
 				else
 				{
-					_putchar(mul / 10 + '0');
-					_putchar(mul % 10 + '0');
+					if (mul >= 100)
+					{
+						_putchar(mul / 100 + '0');
+						_putchar((mul % 100) /10 + '0');
+						_putchar((mul % 100) % 10 + '0');
+					}
+					else
+					{
+						_putchar(' ');
+						_putchar(mul / 10 + '0');
+						_putchar(mul % 10 + '0');
+					}
 					if (j == n)
 						continue;
 					_putchar(',');
