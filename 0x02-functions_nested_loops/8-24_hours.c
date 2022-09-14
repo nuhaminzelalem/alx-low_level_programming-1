@@ -26,17 +26,18 @@ void jack_bauer(void)
 				}
 			}
 			}
-			else 
+			else
 			{
 				for (x = 0; x <= 9; x++)
 				{
-					for (y = 0; y <=9; y++)
+					for (y = 0; y <= 9; y++)
 					{
 						_putchar(i + '0');
 						_putchar(j + '0');
 						_putchar(':');
 						_putchar(x + '0');
 						_putchar(y + '0');
+						_putchar('\n');
 					}
 				}
 			}
