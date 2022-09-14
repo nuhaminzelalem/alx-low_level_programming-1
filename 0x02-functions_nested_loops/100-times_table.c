@@ -28,6 +28,8 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(mul % 10 + '0');
 					}
+					if (j == n)
+						continue;
 					_putchar(',');
 					_putchar(' ');
 				}
@@ -35,6 +37,8 @@ void print_times_table(int n)
 				{
 					_putchar(mul / 10);
 					_putchar(mul % 10);
+					if (j == n)
+						continue;
 					_putchar(',');
 					_putchar(' ');
 				}
