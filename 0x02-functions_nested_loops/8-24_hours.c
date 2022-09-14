@@ -9,13 +9,12 @@ void jack_bauer(void)
 
 	for (i = 0; i < 3; i++)
 	{
-		j = 0;
 		for (j = 0; j < 4; j++)
 		{
-			x = 0;
+			if (i == 2 && j == 3)
+			{
 			for (x = 0; x < 6; x++)
 			{
-				y = 0;
 				for (y = 0; y <= 9; y++)
 				{
 					_putchar(i + '0');
@@ -23,10 +22,23 @@ void jack_bauer(void)
 					_putchar(':');
 					_putchar(x + '0');
 					_putchar(y + '0');
-					_putchar(' ');
 					_putchar('\n');
 				}
 			}
-		}
+			}
+			else 
+			{
+				for (x = 0; x <= 9; x++)
+				{
+					for (y = 0; y <=9)
+					{
+						_putchar(i + '0');
+						_putchar(j + '0');
+						_putchar(':');
+						_putchar(x + '0');
+						_putchar(y + '0');
+					}
+				}
+			}
 	}
 }
