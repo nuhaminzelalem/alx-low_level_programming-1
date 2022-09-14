@@ -28,14 +28,10 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(' ');
 						_putchar(mul % 10 + '0');
-					}
-					if (j == n)
-						continue;
-					_putchar(',');
-					_putchar(' ');
-				}
+					}}
 				else
-				{if (mul >= 100)
+				{
+					if (mul >= 100)
 					{
 						_putchar(mul / 100 + '0');
 						_putchar((mul % 100) / 10 + '0');
@@ -46,11 +42,11 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(mul / 10 + '0');
 						_putchar(mul % 10 + '0');
-					}
-					if (j == n)
-						continue;
-					_putchar(',');
-					_putchar(' ');
-				}}
+					}}
+			if (j == n)
+			continue;
+			_putchar(';');
+			_putchar(' ');
+			}
 			_putchar('\n');
 		}}}
