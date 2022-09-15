@@ -13,6 +13,7 @@ int main(void)
 	{
 		x_3 = i % 3;
 		x_5 = i % 5;
+
 		if ((i >= 3 && x_3 == 0) || (i >= 5 && x_5 ==0))
 		{
 			if(x_3 == 0 && x_5 == 0)
@@ -21,12 +22,14 @@ int main(void)
 				printf("Fizz");
 			else
 				printf("Buzz");
-			printf(" ");
+			if (i != 100)
+				printf(" ");
 		}
 		else
 		{
 			printf("%d", i);
-			printf(" ");
+			if (i != 100)
+				printf(" ");
 		}
 	}
 	printf("\n");
