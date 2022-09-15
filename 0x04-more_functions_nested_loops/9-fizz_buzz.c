@@ -14,7 +14,7 @@ int main(void)
 		x_3 = i % 3;
 		x_5 = i % 5;
 
-		if ((i >= 3 && x_3 == 0) || (i >= 5 && x_5 == 0))
+		if (x_3 == 0 || x_5 == 0)
 		{
 			if (x_3 == 0 && x_5 == 0)
 				printf("FizzBuzz");
