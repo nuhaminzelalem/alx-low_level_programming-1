@@ -18,9 +18,12 @@ void print_diagonal(int n)
 				if (i < j)
 					_putchar(' ');
 				if (i == j)
+				{
 					_putchar(92);
+					_putchar('\n');
+					break;
+				}
 			}
-			_putchar('\n');
 		}
 	}
 	else
