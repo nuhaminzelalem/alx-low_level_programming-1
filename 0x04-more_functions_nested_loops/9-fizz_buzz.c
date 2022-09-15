@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program that prints the numbers from 1 to 100, followed by a new line.
+ * main - a program that prints the numbers from 1 to 100.
  * Return: Always 0 (Success)
  */
 int main(void)
