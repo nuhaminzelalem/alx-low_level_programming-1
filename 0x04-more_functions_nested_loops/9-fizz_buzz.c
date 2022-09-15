@@ -14,21 +14,19 @@ int main(void)
 		x_3 = i % 3;
 		x_5 = i % 5;
 
-		if (x_3 == 0 || x_5 == 0)
-		{
 			if (x_3 == 0 && x_5 == 0)
 				printf("FizzBuzz ");
 			else if (x_3 == 0)
 				printf("Fizz ");
-			else
+			else if (x_5 ==0)
 			{
 				if (i == 100)
 					printf("Buzz");
 				else
 					printf("Buzz ");
-			}}
-		else
-			printf("%i ", i);
+			}
+			else
+				printf("%i ", i);
 	}
 	printf("\n");
 	return (0);
