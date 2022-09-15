@@ -6,19 +6,14 @@
 int main(void)
 {
 	int i;
-	int x_3 = 0;
-	int x_5 = 0;
 
 	for (i = 1; i <= 100; i++)
 	{
-		x_3 = i % 3;
-		x_5 = i % 5;
-
-			if (x_3 == 0 && x_5 == 0)
+			if (i % 3 == 0 && i % 5 == 0)
 				printf("FizzBuzz");
-			else if (x_3 == 0)
+			else if (i % 3 == 0)
 				printf("Fizz");
-			else if (x_5 == 0)
+			else if (i % 5 == 0)
 				printf("Buzz");
 			else
 				printf("%d", i);
