@@ -4,7 +4,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+
 {
+
 	int i;
 	int x_3;
 	int x_5;
