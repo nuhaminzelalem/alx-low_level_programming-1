@@ -15,18 +15,15 @@ int main(void)
 		x_5 = i % 5;
 
 			if (x_3 == 0 && x_5 == 0)
-				printf("FizzBuzz ");
+				printf("FizzBuzz");
 			else if (x_3 == 0)
-				printf("Fizz ");
+				printf("Fizz");
 			else if (x_5 == 0)
-			{
-				if (i == 100)
-					printf("Buzz");
-				else
-					printf("Buzz ");
-			}
+				printf("Buzz");
 			else
-				printf("%i ", i);
+				printf("%d", i);
+			if (i != 100)
+				printf(" ");
 	}
 	printf("\n");
 	return (0);
