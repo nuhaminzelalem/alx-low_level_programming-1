@@ -18,7 +18,7 @@ int main(void)
 				printf("FizzBuzz ");
 			else if (x_3 == 0)
 				printf("Fizz ");
-			else if (x_5 ==0)
+			else if (x_5 == 0)
 			{
 				if (i == 100)
 					printf("Buzz");
