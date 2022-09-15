@@ -6,8 +6,8 @@
 int main(void)
 {
 	int i;
-	int x_3;
-	int x_5;
+	int x_3 = 0;
+	int x_5 = 0;
 
 	for (i = 1; i <= 100; i++)
 	{
