@@ -18,7 +18,7 @@ void print_triangle(int size)
 				if ((i + j) >= (size + 1))
 					_putchar(35);
 				else
-					continue;
+					_putchar(32);
 			}
 			_putchar('\n');
 		}
