@@ -12,5 +12,8 @@ int _isupper(int c)
 		return (1);
 	}
 	else
+	{
+		_putchar(c);
 		return (0);
+	}
 }
