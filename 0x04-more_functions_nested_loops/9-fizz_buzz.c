@@ -17,19 +17,19 @@ int main(void)
 		if (x_3 == 0 || x_5 == 0)
 		{
 			if (x_3 == 0 && x_5 == 0)
-				printf("FizzBuzz");
+				printf("FizzBuzz ");
 			else if (x_3 == 0)
-				printf("Fizz");
+				printf("Fizz ");
 			else
-				printf("Buzz");
-			if (i != 100)
-				printf(" ");
+			{
+				if (i == 100)
+					printf("Buzz");
+				else
+					printf("Buzz ");
+			}
 		}
 		else
-		{
-			printf("%i", i);
-			printf(" ");
-		}
+			printf("%i ", i);
 	}
 	printf("\n");
 	return (0);
